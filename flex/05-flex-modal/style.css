@@ -20,6 +20,13 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px
+}
+
+.icon-box {
+  display: flex;
+  padding-right: 15px;
 }
 
 .icon {
@@ -35,6 +42,13 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -43,11 +57,24 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.message-and-x {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  padding: 8px 0;
+}
+
+.buttons-box {
+  display: flex;
+  padding: 5px 0;
+  gap: 5px;
 }
 
 button {
